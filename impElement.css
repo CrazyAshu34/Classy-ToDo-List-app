@@ -1,0 +1,47 @@
+.myul li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.myul li button {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* new code here */
+
+.myinp{
+    padding-right: 10px;
+    height:35px;
+    border-radius: 5px;
+    border: 0px solid white;
+    padding-left:10px;
+    margin-bottom: 10px;
+}
+.btn{
+    height:30px;
+    width:100px;
+    color:white;
+    border: none;
+    background-color: black;
+    border-radius:10px;
+    box-shadow: 0 9px #510e0e;
+}
+.btn:hover{
+    background-color:rgb(52, 41, 52);
+    transition: 0.5;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+    box-shadow: 0 5px #666;
+    background-color: rgba(8, 135, 87, 0.634);
+}
